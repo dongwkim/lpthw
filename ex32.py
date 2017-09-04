@@ -19,7 +19,3 @@ for i in range(0, 6):
 
 for i in elements:
     print(f"Element was: {i}")
-
-elements2D = [ [1,2,3],[4,5,6]]
-# for i in range(0, elements2D.count()):
-print(elements2D.count([2,2,3]))

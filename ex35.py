@@ -19,7 +19,7 @@ def bear_room():
     print("There is a bear hear.")
     print("The bear has a bunch of honey")
     print("The fat bear is in front of another door.")
-    print("How are you going to move the bear")
+    print("How are you going to move the bear")s
     bear_moved = False
 
     while True:

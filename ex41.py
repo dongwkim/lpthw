@@ -40,14 +40,17 @@ def convert(snippet, phrase):
 
     for sentence in snippet, phrase:
         result = sentence[:]
-
+        print(result)
         for word in class_names:
             result = result.replace("%%%",word, 1)
+        print(result)
 
         for word in other_names:
             result = result.replace("***", word, 1)
+        print(result)
         for word in param_names:
             result = result.replace("@@@", word, 1)
+        print(result)
 
         results.append(result)
 

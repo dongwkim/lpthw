@@ -13,5 +13,3 @@ print("The numbers: ")
 
 for num in number:
     print(num)
-
-print num
